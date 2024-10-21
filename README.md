@@ -2,20 +2,20 @@
 1. Sisältö ja oppimistavoitteet
 2. Tietokantojan teoriaa
 3. Kyselyt - perusteet
-   - SELECT, FROM, WHERE
+   >- SELECT, FROM, WHERE
 5. Kyselyt - ehdot
-   - AND, OR, LIKE
+   >- AND, OR, LIKE
 6. Kyselyt - koostaminen ja funktiot
-   - SUM(), COUNT(), AVG(), MAX(),... 
+   >- SUM(), COUNT(), AVG(), MAX(),... 
 7. Kyselyt - järjestäminen ja rajoittaminen
-   - ORDER BY, DISTINCT, LIMIT,...
+   >- ORDER BY, DISTINCT, LIMIT,...
 8. Kyselyt - taulujen yhdistäminen
-   - INNER JOIN, LEFT/RIGHT JOIN, OUTER JOIN,...
+   >- INNER JOIN, LEFT/RIGHT JOIN, OUTER JOIN,...
 9. Kyselyt - tiedon lisäys, muokkaus ja poisto
-   - INSERT INTO, UPDATE, DELETE
+   >- INSERT INTO, UPDATE, DELETE
 10. Kyselyt - rakenteen luonti, muokkaus ja poisto
-    - CREATE DATABASE/TABLE, ALTER TABLE, DROP DATABASE/TABLE
-11. Tietokannan suunnittelu
+    >- CREATE DATABASE/TABLE, ALTER TABLE, DROP DATABASE/TABLE
+12. Tietokannan suunnittelu
 a. Tehtäviä
 b. Lisämateriaalia
 
