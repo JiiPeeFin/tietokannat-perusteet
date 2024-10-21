@@ -46,12 +46,11 @@ Yleisin tietokantatyyppi on relaatiotietokanta.
 Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**
 
 >Esimerkki relaatiotaulusta
-
-|TaulunNimi|
-|---|
-|Sarake yksi|Sarake kaksi|Sarake kolme|
-|---|---|---|
-
+>
+>TaulunNimi
+>|Sarake yksi|Sarake kaksi|Sarake kolme|
+>|---|---|---|
+>
 
 Relaatiotietokannan tärkeimpiä ominaisuuksia ovat
 - toiston välttäminen (redundanssin välttäminen)
