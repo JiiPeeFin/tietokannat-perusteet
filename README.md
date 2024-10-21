@@ -43,11 +43,24 @@ Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät jollain t
 > Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
 
 Yleisin tietokantatyyppi on relaatiotietokanta. 
-Relaatiotietokanta on toteutettu siten, että tieto ei toistu (redundanssi), tieto on jaettu 
+Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**
+
+>Esimerkki relaatiotaulusta
+
+|TaulunNimi|
+|Sarake yksi|Sarake kaksi|Sarake kolme|
+|---|---|---|
+
+
+Relaatiotietokannan tärkeimpiä ominaisuuksia ovat
+- toiston välttäminen (redundanssin välttäminen)
+- 
 
 > Muita mahdollisia tietokantatyyppejä ovat mm. dokumentti-, graafi- ja avain-pari-tietokannat.
 
 ### SQL-kieli
+
+Structured Query Language (SQL) on 
 
 ## Kyselyt - perusteet
 
