@@ -1,23 +1,23 @@
 # Tietokannat - perusteet
-* Sisältö ja oppimistavoitteet
-* Tietokantojan teoriaa
-* Kyselyt - perusteet
-  * SELECT, FROM, WHERE
-* Kyselyt - ehdot
-  * AND, OR, LIKE
-* Kyselyt - koostaminen ja funktiot
-  * SUM(), COUNT(), AVG(), MAX(),... 
-* Kyselyt - järjestäminen ja rajoittaminen
-  * ORDER BY, DISTINCT, LIMIT,...
-* Kyselyt - taulujen yhdistäminen
-  * INNER JOIN, LEFT/RIGHT JOIN, OUTER JOIN,...
-* Kyselyt - tiedon lisäys, muokkaus ja poisto
-  * INSERT INTO, UPDATE, DELETE
-* Kyselyt - rakenteen luonti, muokkaus ja poisto
-  * CREATE DATABASE/TABLE, ALTER TABLE, DROP DATABASE/TABLE
-* Tietokannan suunnittelu
-* Tehtäviä
-* Lisämateriaalia
+1. Sisältö ja oppimistavoitteet
+2. Tietokantojan teoriaa
+3. Kyselyt - perusteet
+   SELECT, FROM, WHERE
+4. Kyselyt - ehdot
+   AND, OR, LIKE
+5. Kyselyt - koostaminen ja funktiot
+   SUM(), COUNT(), AVG(), MAX(),... 
+6. Kyselyt - järjestäminen ja rajoittaminen
+   ORDER BY, DISTINCT, LIMIT,...
+7. Kyselyt - taulujen yhdistäminen
+   INNER JOIN, LEFT/RIGHT JOIN, OUTER JOIN,...
+8. Kyselyt - tiedon lisäys, muokkaus ja poisto
+   INSERT INTO, UPDATE, DELETE
+9. Kyselyt - rakenteen luonti, muokkaus ja poisto
+    CREATE DATABASE/TABLE, ALTER TABLE, DROP DATABASE/TABLE
+10. Tietokannan suunnittelu
+a. Tehtäviä
+b. Lisämateriaalia
 
 ## Sisältö ja oppimistavoitteet
 
