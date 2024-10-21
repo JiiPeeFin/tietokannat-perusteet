@@ -21,7 +21,7 @@
 
 ## Sisältö ja oppimistavoitteet
 
->
+>Tämä kurssi on lyhyt perehdytys tietokantojen käyttöön. Kurssissa keskitytään lähinnä relaatiotietokantoihin
 
 Tämän kurssin jälkeen opiskelija...
 - ymmärtää tietokantojen perusteet ja peruskäsitteistön
@@ -31,9 +31,23 @@ Tämän kurssin jälkeen opiskelija...
 - ymmärtää tietokannan suunnittelun vaiheet ja käsitteet
 - osaa etsiä tietoa käsittellyistä aiheista ja ratkaista ongelmia
 
+Käytetyt teknologiat ja menetelmät
+- relaatiotietokannat
+- SQL-kieli
+
 ## Tietokantojen teoriaa
 
-## Kyseylyt - perusteet
+Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät 
+
+> Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri
+
+Yleisin tietokantatyyppi on relaatiotietokanta. 
+
+> Muita mahdollisia tietokantatyyppejä ovat mm. dokumentti-, graafi- ja avain-pari-tietokannat.
+
+### SQL-kieli
+
+## Kyselyt - perusteet
 
 ## Kyselyt - ehdot
 
