@@ -21,7 +21,8 @@
 
 ## Sisältö ja oppimistavoitteet
 
->Tämä kurssi on lyhyt perehdytys tietokantojen käyttöön. Kurssissa keskitytään lähinnä relaatiotietokantoihin
+>Tämä kurssi on lyhyt perehdytys tietokantojen käyttöön. Kurssissa keskitytään lähinnä relaatiotietokantoihin ja SQL -kyselykielen käyttämiseen.
+>Lisäksi käymme läpi lyhyesti tietokannan suunnittelua, joka on oma laaja aihealueensa. 
 
 Tämän kurssin jälkeen opiskelija...
 - ymmärtää tietokantojen perusteet ja peruskäsitteistön
@@ -37,11 +38,12 @@ Käytetyt teknologiat ja menetelmät
 
 ## Tietokantojen teoriaa
 
-Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät 
+Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät jollain tavalla toisiinsa. 
 
-> Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri
+> Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
 
 Yleisin tietokantatyyppi on relaatiotietokanta. 
+Relaatiotietokanta on toteutettu siten, että tieto ei toistu (redundanssi), tieto on jaettu 
 
 > Muita mahdollisia tietokantatyyppejä ovat mm. dokumentti-, graafi- ja avain-pari-tietokannat.
 
@@ -62,6 +64,10 @@ Yleisin tietokantatyyppi on relaatiotietokanta.
 ## Kyselyt - rakenteen luonti, muokkaus ja poisto
 
 ## Tietokannan suunnittelu
+
+### Tietokannan normalisointi
+
+Tietokannan normalisointi on menetelmä, jossa tietokanta käydään.
 
 ## Tehtäviä
 
