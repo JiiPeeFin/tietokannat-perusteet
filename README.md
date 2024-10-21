@@ -16,13 +16,13 @@
 10. Kyselyt - rakenteen luonti, muokkaus ja poisto
     >- CREATE DATABASE/TABLE, ALTER TABLE, DROP DATABASE/TABLE
 12. Tietokannan suunnittelu
-a. Tehtäviä
-b. Lisämateriaalia
+13. Tehtäviä
+14. Lisämateriaalia
 
 ## Sisältö ja oppimistavoitteet
 
 >Tämä kurssi on lyhyt perehdytys tietokantojen käyttöön. Kurssissa keskitytään lähinnä relaatiotietokantoihin ja SQL -kyselykielen käyttämiseen.
->Lisäksi käymme läpi lyhyesti tietokannan suunnittelua, joka on oma laaja aihealueensa. 
+>Lisäksi käymme läpi lyhyesti tietokannan suunnittelua, joka on oma monimutkainen kokonaisuutensa. 
 
 Tämän kurssin jälkeen opiskelija...
 - ymmärtää tietokantojen perusteet ja peruskäsitteistön
@@ -39,11 +39,12 @@ Käytetyt teknologiat ja menetelmät
 ## Tietokantojen teoriaa
 
 Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät jollain tavalla toisiinsa. 
+Tietokannat ovat sovellusten ja verkkosovellusten muisti
 
 > Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
 
-Yleisin tietokantatyyppi on relaatiotietokanta. 
-Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**
+Yleisin tietokantatyyppi on **relaatiotietokanta**. 
+Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, joissa tiedolla on yhtenäinen suhde (relaatio) toisiinsa. Yleensä tietokannassa on useampia tauluja ja näillä tauluilla on yhteys toisiinsa. 
 
 > Relaatio tarkoittaa suhdetta.
 
