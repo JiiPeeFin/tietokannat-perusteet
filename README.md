@@ -45,6 +45,8 @@ Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät jollain t
 Yleisin tietokantatyyppi on relaatiotietokanta. 
 Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**
 
+> Relaatio tarkoittaa suhdetta.
+
 >Esimerkki relaatiotaulusta
 >
 >TaulunNimi
@@ -61,6 +63,8 @@ Relaatiotietokannan tärkeimpiä ominaisuuksia ovat
 ### SQL-kieli
 
 Structured Query Language (SQL) on 
+
+### Tietokantojen käsitteet
 
 ## Kyselyt - perusteet
 
