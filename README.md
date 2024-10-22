@@ -39,14 +39,14 @@ Käytetyt teknologiat ja menetelmät
 ## Tietokantojen teoriaa
 
 Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät jollain tavalla toisiinsa. 
-Tietokannat ovat sovellusten ja verkkosovellusten muisti
+Tietokannat ovat sovellusten ja verkkopalveluiden pitkäaikainen muisti.
 
 > Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
 
 Yleisin tietokantatyyppi on **relaatiotietokanta**. 
 Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, joissa tiedolla on yhtenäinen suhde (relaatio) toisiinsa. Yleensä tietokannassa on useampia tauluja ja näillä tauluilla on yhteys toisiinsa. 
 
-> Relaatio tarkoittaa suhdetta.
+> Relaatio (engl. relation) tarkoittaa suhdetta.
 
 >Esimerkki relaatiotaulusta
 >
@@ -55,15 +55,19 @@ Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, 
 >|---|---|---|
 >
 
-Relaatiotietokannan tärkeimpiä ominaisuuksia ovat
-- toiston välttäminen (redundanssin välttäminen)
-- 
+Relaatiotietokannan tärkeimpiä piirteitä ovat:
+- Taulut: tietojen tallentaminen **tauluihin**, joissa rivit edustavat yhtä tietuetta ja sarake tietueiden ominaisuutta.
+- Relaatiot: jokaisen taulun tiedot ovat suhteessa toisiinsa ja lisäksi taulut ovat suhteessa toisiinsa avainten avulla.
+- SQL-kieli: kieltä käytetään tiedon ja tietorakenteiden käsittelyyn.
+- Normalisointi: tiedot lohkotaan niin pieniin tauluihin, että tietoa ei tarvitse toistaa. 
 
 > Muita mahdollisia tietokantatyyppejä ovat mm. dokumentti-, graafi- ja avain-pari-tietokannat.
 
 ### SQL-kieli
 
-Structured Query Language (SQL) on 
+Structured Query Language (SQL) on relaatiotietokannoissa käytetty tietokannan **hallintaan** tarkoitettu ohjelmointikieli. SQL-kieltä käytetään tällä kurssilla tietokannan tietojen hakemiseen, lisäämiseen, päivittämiseen ja poistamiseen. Lisäksi kielellä luodaan, muokataan ja tuhotaan tietokannan tietorakenteita.
+
+>Huom. Kaikkia SQL käskyjä kutsutaan nimellä kysely (engl. query). 
 
 ### Tietokantojen käsitteet
 
