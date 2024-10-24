@@ -74,19 +74,19 @@ Relaatiotietokannan tärkeimpiä piirteitä ovat:
 ### Tietokantojen käsitteet
 
 Tärkeimpiä tietokantojen käsitteitä ovat seuraavat:
-- tietokannan hallitajärjestelmä (engl. database management system, DBMS)
-- tietokanta  (engl. database, sb)
-- suhde, relaatio   (engl. relation)
-- tietorakenne, skeema  (engl. data structure, schema)
-- kysely, haku, käsky   (engl. query)
-
-- taulu       (engl. table)
-- rivi, tietua  (engl. row, tuple)
-- sarake      (engl. column)
-- solu      (engl. cell)
-
-- avain    (engl. key)
-- tietotyyppi  (engl. data type)
+|Käsite | Englanniksi |
+|---|---|
+|tietokannan hallitajärjestelmä | database management system, DBMS |
+|tietokanta | database, DB |
+|suhde, relaatio  | relation | 
+|tietorakenne, skeema  | data structure, schema | 
+|kysely, haku, käsky  | query | 
+|taulu   | table | 
+|rivi, tietua | row, tuple | 
+|sarake  | column | 
+|solu | cell | 
+|avain | key | 
+|tietotyyppi | data type | 
 
 ## Kyselyt - perusteet
 
