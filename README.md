@@ -53,9 +53,9 @@ Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, 
 >Esimerkki relaatiotaulusta
 >
 >TaulunNimi
->|Sarake yksi|Sarake kaksi|Sarake kolme|
->|---|---|---|
->
+>|Sarake yksi|Sarake kaksi|Sarake kolme|Sarake neljä|
+>|---|---|---|---|
+>|Yksi|rivi|on|yhtenäistä tietoa|
 
 Relaatiotietokannan tärkeimpiä piirteitä ovat:
 - **Taulut:** tietojen tallentaminen **tauluihin**, joissa rivit edustavat yhtä tietuetta ja sarake tietueiden ominaisuutta.
@@ -73,20 +73,22 @@ Relaatiotietokannan tärkeimpiä piirteitä ovat:
 
 ### Tietokantojen käsitteet
 
-Tärkeimpiä tietokantojen käsitteitä ovat seuraavat:
+Tärkeimpiä tietokantojen käsitteitä ovat mm. seuraavat:
 |Käsite | Englanniksi |
 |---|---|
-|tietokannan hallitajärjestelmä | database management system, DBMS |
+|tietokannan hallintajärjestelmä | database management system, DBMS |
 |tietokanta | database, DB |
 |suhde, relaatio  | relation | 
 |tietorakenne, skeema  | data structure, schema | 
 |kysely, haku, käsky  | query | 
 |taulu   | table | 
-|rivi, tietua | row, tuple | 
+|rivi, tietue | row, tuple | 
 |sarake  | column | 
 |solu | cell | 
 |avain | key | 
 |tietotyyppi | data type | 
+
+Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehittyneempiin hakuihin ja käyttöön. Näitä ei käydä tässä kurssissa.
 
 ## Kyselyt - perusteet
 
@@ -106,7 +108,21 @@ Tärkeimpiä tietokantojen käsitteitä ovat seuraavat:
 
 ### Tietokannan normalisointi
 
-Tietokannan normalisointi on menetelmä, jossa tietokanta käydään.
+Tietokannan normalisointi on menetelmä, jossa tietokanta käydään vaihevaiheelta läpi. Normalisoinnissa on 5-6 vaihetta, joista yleensä toteutetaan kolme ensimmäistä. Normalisoinnin tavoite on toteuttaa tietokanta, jossa on mahdollisimman vähän toistoa (redundanssia) sekä tyhjiä kenttiä (null). Tällä pyritään yhteinäiseen ja helposti hallittavaan tietokantaan. 
+Käytännössä tietokannan normalisointi tarkoittaa sitä, että harvoja isoja tauluja jaetaan useammiksi pienemmiksi tauluiksi.
+
+> Tässä kurssissa käymme normalisoinnin hyvin pintapuolisesti läpi. 
+
+Usein työelämässä käytetään listoja asioiden tallentamiseen, mutta tiedon hakeminen listasta on usein hankalaa. Normalisointi voidaan nähdä myös prosessina, jossa listasta tehdään aito tietokanta.
+
+|Normaalimuoto|Normaalimuodon ehdot|Tavoite|
+|---|---|---|
+|Ensimmäinen normaalimuoto, !NF| Solun tieto on atomista, jokaisella rivillä yksilöllinen avain|Tieto on helposti käsiteltävää, eri rivit pysyvät selkeinä|
+|Toinen tormaalimuoto, 2NF|Kaikilla ei-avain kentillä on TÄYSI riippuvuus rivin avaimesta|Taulu jaetaan, jos taulussa on avaimesta riippumatonta tietoa|
+|Kolmas normaalimuoto, 3NF|||
+|Boyce-Codd normaalimuoto, BCNF|||
+|Neljäs normaalimuoto, 4NF|||
+|Viides normaalimuoto, 5NF|||
 
 ## Tehtäviä
 
