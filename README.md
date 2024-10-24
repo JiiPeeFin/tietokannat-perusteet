@@ -21,8 +21,9 @@
 
 ## Sisältö ja oppimistavoitteet
 
->Tämä kurssi on lyhyt perehdytys tietokantojen käyttöön. Kurssissa keskitytään lähinnä relaatiotietokantoihin ja SQL -kyselykielen käyttämiseen.
->Lisäksi käymme läpi lyhyesti tietokannan suunnittelua, joka on oma monimutkainen kokonaisuutensa. 
+>Tämä kurssi on lyhyt ja kapea perehdytys tietokantojen käyttöön. Kurssissa keskitytään lähinnä relaatiotietokantoihin ja SQL -kyselykielen käyttämiseen.
+>Lisäksi käymme läpi lyhyesti tietokannan suunnittelua, joka on oma monimutkainen kokonaisuutensa.
+>Kurssin tarkoitus on antaa opiskelijalle eväät ymmärtää ja käyttää perustason SQL-kyselyitä sekä ymmärtää tietokannan rakennetta ja suunnitteluprosessia.
 
 Tämän kurssin jälkeen opiskelija...
 - ymmärtää tietokantojen perusteet ja peruskäsitteistön
@@ -35,6 +36,7 @@ Tämän kurssin jälkeen opiskelija...
 Käytetyt teknologiat ja menetelmät
 - relaatiotietokannat
 - SQL-kieli
+- XAMPP -sovellus (MariaDB, phpMyAdmin,...)
 
 ## Tietokantojen teoriaa
 
@@ -44,9 +46,9 @@ Tietokannat ovat sovellusten ja verkkopalveluiden pitkäaikainen muisti.
 > Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
 
 Yleisin tietokantatyyppi on **relaatiotietokanta**. 
-Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, joissa tiedolla on yhtenäinen suhde (relaatio) toisiinsa. Yleensä tietokannassa on useampia tauluja ja näillä tauluilla on yhteys toisiinsa. 
+Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, joissa tiedolla on yhtenäinen suhde (relaatio) toisiinsa. Yleensä tietokannassa on useampia tauluja ja näillä tauluilla on yhteys toisiinsa niin kutsutun **avaimen** avulla. 
 
-> Relaatio (engl. relation) tarkoittaa suhdetta.
+> Relaatio (engl. relation, relationship) tarkoittaa suhdetta.
 
 >Esimerkki relaatiotaulusta
 >
@@ -56,20 +58,35 @@ Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, 
 >
 
 Relaatiotietokannan tärkeimpiä piirteitä ovat:
-- Taulut: tietojen tallentaminen **tauluihin**, joissa rivit edustavat yhtä tietuetta ja sarake tietueiden ominaisuutta.
-- Relaatiot: jokaisen taulun tiedot ovat suhteessa toisiinsa ja lisäksi taulut ovat suhteessa toisiinsa avainten avulla.
-- SQL-kieli: kieltä käytetään tiedon ja tietorakenteiden käsittelyyn.
-- Normalisointi: tiedot lohkotaan niin pieniin tauluihin, että tietoa ei tarvitse toistaa. 
+- **Taulut:** tietojen tallentaminen **tauluihin**, joissa rivit edustavat yhtä tietuetta ja sarake tietueiden ominaisuutta.
+- **Relaatiot:** jokaisen taulun tiedot ovat **suhteessa** toisiinsa ja lisäksi taulut ovat suhteessa toisiinsa avainten avulla.
+- **SQL-kieli:** kieltä käytetään tiedon ja tietorakenteiden käsittelyyn.
+- **Normalisointi:** tiedot lohkotaan niin pieniin tauluihin, että tietoa ei tarvitse toistaa. Normalisoinnin tavoite on toiston, eli **redundanssin** vähentäminen.
 
 > Muita mahdollisia tietokantatyyppejä ovat mm. dokumentti-, graafi- ja avain-pari-tietokannat.
 
 ### SQL-kieli
 
-Structured Query Language (SQL) on relaatiotietokannoissa käytetty tietokannan **hallintaan** tarkoitettu ohjelmointikieli. SQL-kieltä käytetään tällä kurssilla tietokannan tietojen hakemiseen, lisäämiseen, päivittämiseen ja poistamiseen. Lisäksi kielellä luodaan, muokataan ja tuhotaan tietokannan tietorakenteita.
+**Structured Query Language (SQL)** on relaatiotietokannoissa käytetty tietokannan **hallintaan** tarkoitettu ohjelmointikieli. SQL-kieltä käytetään tällä kurssilla tietokannan tietojen hakemiseen, lisäämiseen, päivittämiseen ja poistamiseen. Lisäksi kielellä luodaan, muokataan ja tuhotaan tietokannan tietorakenteita.
 
 >Huom. Kaikkia SQL käskyjä kutsutaan nimellä kysely (engl. query). 
 
 ### Tietokantojen käsitteet
+
+Tärkeimpiä tietokantojen käsitteitä ovat seuraavat:
+- tietokannan hallitajärjestelmä (engl. database management system, DBMS)
+- tietokanta  (engl. database, sb)
+- suhde, relaatio   (engl. relation)
+- tietorakenne, skeema  (engl. data structure, schema)
+- kysely, haku, käsky   (engl. query)
+
+- taulu       (engl. table)
+- rivi, tietua  (engl. row, tuple)
+- sarake      (engl. column)
+- solu      (engl. cell)
+
+- avain    (engl. key)
+- tietotyyppi  (engl. data type)
 
 ## Kyselyt - perusteet
 
