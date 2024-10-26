@@ -59,7 +59,7 @@ Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, 
 
 Relaatiotietokannan tärkeimpiä piirteitä ovat:
 - **Taulut:** tietojen tallentaminen **tauluihin**, joissa rivit edustavat yhtä tietuetta ja sarake tietueiden ominaisuutta.
-- **Relaatiot:** jokaisen taulun tiedot ovat **suhteessa** toisiinsa ja lisäksi taulut ovat suhteessa toisiinsa avainten avulla.
+- **Relaatiot:** taulun tiedot ovat **suhteessa** toisiinsa ja lisäksi taulut ovat suhteessa toisiinsa avainten avulla.
 - **SQL-kieli:** kieltä käytetään tiedon ja tietorakenteiden käsittelyyn.
 - **Normalisointi:** tiedot lohkotaan niin pieniin tauluihin, että tietoa ei tarvitse toistaa. Normalisoinnin tavoite on toiston, eli **redundanssin** vähentäminen.
 
@@ -96,13 +96,19 @@ Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehitt
 
 ## Kyselyt - koostaminen ja funktiot
 
-## Kyselyt - järjestäminen ja rajoitaminen
+## Kyselyt - järjestäminen ja rajoittaminen
 
 ## Kyselyt - taulujen yhdistäminen
 
 ## Kyselyt - tiedon lisäys, muokkaus ja poisto
 
 ## Kyselyt - rakenteen luonti, muokkaus ja poisto
+
+Tietokannan rakennetta vuodaan muokata seuraavilla tavoilla:
+- taulun luominen ja poistaminen
+- taulun rakenteen muokkaaminen
+
+
 
 ## Tietokannan suunnittelu
 
