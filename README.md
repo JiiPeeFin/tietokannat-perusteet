@@ -40,7 +40,7 @@ Käytetyt teknologiat ja menetelmät
 
 ## Tietokantojen teoriaa
 
-Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät jollain tavalla toisiinsa. 
+Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät jotenkin toisiinsa ( eli muodostavat kokonaisuuden). 
 Tietokannat ovat sovellusten ja verkkopalveluiden pitkäaikainen muisti.
 
 > Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
@@ -74,19 +74,19 @@ Relaatiotietokannan tärkeimpiä piirteitä ovat:
 ### Tietokantojen käsitteet
 
 Tärkeimpiä tietokantojen käsitteitä ovat mm. seuraavat:
-|Käsite | Englanniksi |
-|---|---|
-|tietokannan hallintajärjestelmä | database management system, DBMS |
-|tietokanta | database, DB |
-|suhde, relaatio  | relation | 
-|tietorakenne, skeema  | data structure, schema | 
-|kysely, haku, käsky  | query | 
-|taulu   | table | 
-|rivi, tietue | row, tuple | 
-|sarake  | column | 
-|solu | cell | 
-|avain | key | 
-|tietotyyppi | data type | 
+|Käsite | Englanniksi | Selitys
+|---|---|---|
+|tietokannan hallintajärjestelmä | database management system, DBMS | Sovellus, jonka avulla tietokantoja ja niiden ominaisuuksia hallitaan. |
+|tietokanta | database, DB | Tietokanta on järjestetty kokonaisuus rakenteellista tietoa, jota DBMS hallitsee. |
+|suhde, relaatio  | relation | 1) Taulu tietokannassa, jonka tiedot ovat suhteessa toisiinsa 2) Taulujen välinen suhde, jota ilmaistaan avaimilla. |
+|tietorakenne, skeema  | data structure, schema | Rakenne siitä miten tieto on järjestetty tauluissa ja eri taulujen välillä. |
+|kysely, haku, käsky  | query | Käsky/komento, joka hakee tietoa tietokannasta. Voivat myös muuttaa tietokantaa ja sen rakennetta. |
+|taulu   | table | Yksittäinen taulu sisältää tietoa tietystä suhteesta. |
+|rivi, tietue | row, tuple | Rivin tiedot liittyvät suoraan toisiinsa. Esim. tietyn asiakkaan nimi, osoite ja tilaus. |
+|sarake  | column | Sarakkeet liittyvät tietorakenteeseen ja kuvaavat millaista tietoa kyseisessä kohdassa on. Esim. asiakkaan nimi, joko on merkkijono. |
+|solu | cell | Yksi ja tietty kohta tietokantataulussa. Esim. tietyn asiakkaan nimi. |
+|avain | key | Lisätieto, joka avulla tietokannan taulut liitettään toisiinsa. Ja tietoon luodaan rajoitteita. |
+|tietotyyppi | data type | Tieto siitä millaista tietoa sarakkeeseen ja sen soluihin on tallennettu. Esim. merkkijonot tai kokonaisluvut. |
 
 Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehittyneempiin hakuihin ja käyttöön. Näitä ei käydä tässä kurssissa.
 
