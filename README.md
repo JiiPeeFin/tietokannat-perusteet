@@ -123,7 +123,7 @@ Usein työelämässä käytetään listoja asioiden tallentamiseen, mutta tiedon
 
 |Normaalimuoto|Normaalimuodon ehdot|Tavoite|
 |---|---|---|
-|Ensimmäinen normaalimuoto, !NF| Solun tieto on atomista, jokaisella rivillä yksilöllinen avain|Tieto on helposti käsiteltävää, eri rivit pysyvät selkeinä|
+|Ensimmäinen normaalimuoto, 1NF| Solun tieto on atomista, jokaisella rivillä yksilöllinen avain|Tieto on helposti käsiteltävää, eri rivit pysyvät selkeinä|
 |Toinen tormaalimuoto, 2NF|Kaikilla ei-avain kentillä on TÄYSI riippuvuus rivin avaimesta|Taulu jaetaan, jos taulussa on avaimesta riippumatonta tietoa|
 |Kolmas normaalimuoto, 3NF|||
 |Boyce-Codd normaalimuoto, BCNF|||
