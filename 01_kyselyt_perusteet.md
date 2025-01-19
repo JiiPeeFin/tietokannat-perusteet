@@ -15,7 +15,16 @@ Tärkeää on saada haettua *KAIKKI* haluttu tieto ilman *MITÄÄN VÄÄRÄÄ* t
 | FROM | Valitsee mistä taulusta tieto haetaan. |
 | WHERE | Valitsee millä ehdoilla tietoa haetaan taulusta. Ehtoja voi olla useita. |
 
-### Esimerkki 01: 
+> [!TIP]
+> Kun aloitat SQL-haun suunnittelun,  1) tutustu ensin tietokannan tauluihin ja selvitä mistä taulusta hakemasi tieto löytyy,  2) suunnittele ja kirjoita alustava SLQ-haku ja 3) aja haku ja tarkista saamasi tulos. Korjaa hakua, mikäli tarpeen.
+
+### Esimerkki 01: kaikkien tietojen haku taulusta.
+> 
+```sql
+SELECT *  
+FROM 
+```
+
 
 ### Esimerkki 02: 
 
@@ -34,8 +43,8 @@ WHERE-ehdon yhteydessä käytetään vertailuoperaattoreita, joiden avulla hakua
 | <= | pienempi tai yhtäpieni kuin | vasemman puolen tulee olla pienempi kuin oikean puolen. Tai ne voivat olla identtiset. Esim. 1 <= 1 |
 | <> | erisuuri kuin | molempien puolien tulee olla erilaiset. Esim. 1 <> 5 |
 
-> HUOM. Vertailuoperaattoreilla voidaan verrata mitä tahansa kenttien sisältämiä tietoja. Ei ainostaan numeroita, vaan myös merkkijonoja.
-> Merkkijonojen vertailuun on käytössä myös toinen SQL-käsky (LIKE).
+> HUOM. Vertailuoperaattoreilla voidaan verrata mitä tahansa kenttien sisältämiä tietoja. Ei ainostaan numeerista tietoa, vaan myös merkkijonoja.
+> Merkkijonojen vertailuun on käytössä myös toinen SQL-käsky (LIKE), johon tutustumme seuraavassa luvussa.
 
 
 
