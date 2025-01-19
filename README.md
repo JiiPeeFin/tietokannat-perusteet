@@ -46,7 +46,7 @@ Tietokannat ovat sovellusten ja verkkopalveluiden pitkäaikainen muisti.
 > Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
 
 Yleisin tietokantatyyppi on **relaatiotietokanta**. 
-Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, joissa tiedolla on yhtenäinen suhde (relaatio) toisiinsa. Yleensä tietokannassa on useampia tauluja ja näillä tauluilla on yhteys toisiinsa niin kutsutun **avaimen** avulla. 
+Relaatiotietokanta on toteutettu siten, että tieto jaetaan useaan **tauluun**, joissa tiedolla on yhtenäinen suhde (relaatio) toisiinsa. Yleensä tietokannassa on useampia tauluja ja näillä tauluilla on yhteys toisiinsa niin kutsutun **avaimen** avulla. Relaatiotietokannat eivät ole ainoa tietokanta tyyppi, mutta ovat kaikkein suosituin tietokantatyyppi. Niiden suosio perustuu yksikertaiseen, joustavaan rakenteeseen sekä vahvaan kykyyn yhdistää tietoa. Heikkouksiksi voisi luetella mm. kyvyttömyyden tehdä muutoksia jo käytössä olevaan tietokantaan.
 
 > Relaatio (engl. relation, relationship) tarkoittaa suhdetta.
 
