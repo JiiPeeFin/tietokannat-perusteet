@@ -109,27 +109,6 @@ Tietokannan rakennetta vuodaan muokata seuraavilla tavoilla:
 - taulun rakenteen muokkaaminen
 
 
-
-## Tietokannan suunnittelu
-
-### Tietokannan normalisointi
-
-Tietokannan normalisointi on menetelmä, jossa tietokanta käydään vaihevaiheelta läpi. Normalisoinnissa on 5-6 vaihetta, joista yleensä toteutetaan kolme ensimmäistä. Normalisoinnin tavoite on toteuttaa tietokanta, jossa on mahdollisimman vähän toistoa (redundanssia) sekä tyhjiä kenttiä (null). Tällä pyritään yhteinäiseen ja helposti hallittavaan tietokantaan. 
-Käytännössä tietokannan normalisointi tarkoittaa sitä, että harvoja isoja tauluja jaetaan useammiksi pienemmiksi tauluiksi.
-
-> Tässä kurssissa käymme normalisoinnin hyvin pintapuolisesti läpi. 
-
-Usein työelämässä käytetään listoja asioiden tallentamiseen, mutta tiedon hakeminen listasta on usein hankalaa. Normalisointi voidaan nähdä myös prosessina, jossa listasta tehdään aito tietokanta.
-
-|Normaalimuoto|Normaalimuodon ehdot|Tavoite|
-|---|---|---|
-|Ensimmäinen normaalimuoto, 1NF| Solun tieto on atomista, jokaisella rivillä yksilöllinen avain|Tieto on helposti käsiteltävää, eri rivit pysyvät selkeinä|
-|Toinen tormaalimuoto, 2NF|Kaikilla ei-avain kentillä on TÄYSI riippuvuus rivin avaimesta|Taulu jaetaan, jos taulussa on avaimesta riippumatonta tietoa|
-|Kolmas normaalimuoto, 3NF|||
-|Boyce-Codd normaalimuoto, BCNF|||
-|Neljäs normaalimuoto, 4NF|||
-|Viides normaalimuoto, 5NF|||
-
 ## Tehtäviä
 
 Tehtävät löytyvät kansiosta ["tehtävät"](tehtävät/).
