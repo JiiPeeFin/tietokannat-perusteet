@@ -1,6 +1,6 @@
 # Kyselyt - perusteet
 
-SQL-kielessä käytetyt käskyt ovat kaikki kyselyitä (engl. query), sillä jokainen kysely palauttaa tuloksen käyttäjälle. 
+SQL-kielessä käytetyt käskyt ovat kaikki kyselyitä (engl. query), sillä jokainen kysely palauttaa tuloksen käyttäjälle. [^1]
 
 Tämä koskee erityisesti SELECT-kyselyä.
 Yleisin käyttötarkoitus sille on tietojen hakeminen nykyisestä tietokannasta. Tietoa haetaan SELECT-lauseella, jota täydennetään muilla käskyillä ja rajoitteilla. 
@@ -48,5 +48,6 @@ WHERE-ehdon yhteydessä käytetään vertailuoperaattoreita, joiden avulla hakua
 > HUOM. Vertailuoperaattoreilla voidaan verrata mitä tahansa kenttien sisältämiä tietoja. Ei ainostaan numeerista tietoa, vaan myös merkkijonoja.
 > Merkkijonojen vertailuun on käytössä myös toinen SQL-käsky (LIKE), johon tutustumme seuraavassa luvussa.
 
-
-
+# Lähteet ja vinkit
+[^1]: Tietoa
+https://www.w3schools.com/sql/sql_select.asp 
