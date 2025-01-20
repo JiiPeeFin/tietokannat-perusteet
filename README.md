@@ -90,9 +90,9 @@ Tärkeimpiä tietokantojen käsitteitä ovat mm. seuraavat:
 
 Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehittyneempiin hakuihin ja käyttöön. Näitä ei käydä tässä kurssissa.
 
-## Kyselyt - perusteet
+## [Kyselyt - perusteet](01_kyselyt_perusteet.md)
 
-## Kyselyt - ehdot
+## [Kyselyt - ehdot](02_kyselyt_ehdot.md)
 
 ## Kyselyt - koostaminen ja funktiot
 
