@@ -11,7 +11,7 @@ Jos aiemmin pystyimme etsimään asiakkaat, joiden toimipaikka sijaitsi tietyss�
 
 Vaikka merkkijonoja voi vertailla edellisessä luvussa tutuilla vertailuoperaattoreilla (=, <, >, =<, =>, <>) on niiden käytössä parempi käyttää LIKE-operaattoria. 
 Koska merkkijonot eroavat monella tavalla numeroista ja luvuista, tarvitsemme lisää ***jokerimerkkejä*** (engl. wildcards). 
-Näillä voimme etsiä ja tunnistaa merkkijonoja eri tavoilla.
+Näillä voimme etsiä, tunnistaa ja vertailla merkkijonoja eri tavoilla.
 
 | JOKERIMERKKI | MERKITYS | ESIMERKKI |
 |---|---|---|
