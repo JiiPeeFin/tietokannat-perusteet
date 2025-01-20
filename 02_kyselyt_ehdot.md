@@ -1,5 +1,5 @@
 # Kyselyt - ehdot
->- AND, OR
+>- AND, OR, NOT
 
 Edellisessä luvussa tutustuimme kyselyiden perusteisiin.
 Jatkamme nyt samasta aiheesta. Kun vertailuoperaattoreiden lisäksi otetaan käyttöön loogiset operaattorit AND ja OR, niin pystymme rakentamaan yhdellä kertaa monimutkaisemman kyselyn.
@@ -20,3 +20,34 @@ Näillä voimme etsiä, tunnistaa ja vertailla merkkijonoja eri tavoilla.
 
 > Muitakin jokerimerkkejä on, mutta tässä kurssissa nämä riittävät.
 > Ohjelmoinnissa vastaava työkalu on *säännölliset lausekkeet* (engl. regular expression, regexp)
+
+
+## Lähteet ja vinkit
+[^1]:
+
+### Loogisten operaattoreiden esittäminen taulukolla
+Loogisia operaattoreita, kuten AND ja OR, esitetään usein taulukon avulla. Tämä esitystapa on tutumpi elektroniikassa sekä boolen algebrassa. Olen lisännyt tämän tähän mukaan, sillä esitystapa tulee usein vastaan jatko-opinnoissa ja ainakin omalla kohdallanni esitystapa on selkeyttänyt operaattoreiden toimintaa.
+
+|A|B|A AND B|
+|---|---|---|
+|totta|totta|totta|
+|totta|epätotta|epätotta|
+|epätotta|totta|epätotta|
+|epätotta|epätosi|totta|
+
+> [!NOTE]
+> Molempien verrattavien arvojen tulee olla ***IDENTTISET***.
+> Mikäli toinen on eri, lopputulos on epätotta.
+> AND operaattori on vaativampi operaattori kuin OR. 
+
+|A|B|A OR B|
+|---|---|---|
+|totta|totta|totta|
+|totta|epätotta|totta|
+|epätotta|totta|totta|
+|epätotta|epätosi|epätotta|
+
+> [!NOTE]
+> Riittää, että ***toinen*** arvo on totta.
+> Vain tilanteessa, jossa molemmat verrattavat arvot ovat epätotta, on myös tulos epätosi.
+> OR operaattori siis hyväksyy helpommin arvoja. 
