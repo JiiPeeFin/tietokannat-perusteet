@@ -9,7 +9,7 @@ Tärkeää on saada haettua *KAIKKI* haluttu tieto ilman *MITÄÄN VÄÄRÄÄ* t
 > ***Esimerkiksi:*** kuvitellaan, että meillä on tietokannan taulu, johon on tallennettu asiakastietoja.
 > Kuten asiakasnumero, asiakkaan nimi, asiakkaan osoite, asiakkaan puhelinnumero, asiakkaan toimipaikka sekä asiakkaan tilausten kokonaismäärä.
 
- Kyseinen relaatiotaulu voisi näyttää esimerkiksi tältä.
+> Kyseinen relaatiotaulu voisi näyttää esimerkiksi tältä.
  |asiakkaan nimi|asiakkaan osoite|asiakkaan puhelinnumero|asiakkaan toimipaikka|tilausten kokonaismäärä|
  |---|---|---|---|---|
  |Reijon keittiö ay|Konetie 2|044 123123|Espoo|6|
