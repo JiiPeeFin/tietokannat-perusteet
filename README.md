@@ -104,11 +104,6 @@ Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehitt
 
 ## Kyselyt - rakenteen luonti, muokkaus ja poisto
 
-Tietokannan rakennetta vuodaan muokata seuraavilla tavoilla:
-- taulun luominen ja poistaminen
-- taulun rakenteen muokkaaminen
-
-
 ## Tehtäviä
 
 Tehtävät löytyvät kansiosta ["tehtävät"](tehtävät/).
