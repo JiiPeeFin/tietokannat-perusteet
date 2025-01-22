@@ -36,7 +36,7 @@ Tämän kurssin jälkeen opiskelija...
 Käytetyt teknologiat ja menetelmät
 - relaatiotietokannat
 - SQL-kieli
-- XAMPP -sovellus (MariaDB, phpMyAdmin,...)
+- XAMPP -sovellus (useita sovelluksia)
 
 ## Tietokantojen teoriaa
 
