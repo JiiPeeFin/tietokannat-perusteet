@@ -1,15 +1,15 @@
 # Kyselyt - perusteet
 
-SQL-kielessä käytetyt käskyt ovat kaikki kyselyitä (engl. query), sillä jokainen kysely palauttaa tuloksen käyttäjälle. [^1]
+SQL-kielessä käytetyt kaikki käskyt ovat kyselyitä (engl. query), sillä jokainen kysely palauttaa tuloksen käyttäjälle. [^1]
 
 Tämä koskee erityisesti SELECT-kyselyä.
-Yleisin käyttötarkoitus sille on tietojen hakeminen nykyisestä tietokannasta. Tietoa haetaan SELECT-lauseella, jota täydennetään muilla käskyillä ja rajoitteilla. 
+Yleisin käyttötarkoitus niille on tietojen hakeminen nykyisestä tietokannasta. Tietoa haetaan SELECT-lauseella, jota täydennetään muilla käskyillä ja rajoitteilla. 
 Tärkeää on saada haettua *KAIKKI* haluttu tieto ilman *MITÄÄN VÄÄRÄÄ* tietoa. 
 
 > ***Esimerkiksi:*** kuvitellaan, että meillä on tietokannan taulu, johon on tallennettu asiakastietoja.
 > Kuten asiakasnumero, asiakkaan nimi, asiakkaan osoite, asiakkaan puhelinnumero, asiakkaan toimipaikka sekä asiakkaan tilausten kokonaismäärä.
 
-> Kyseinen relaatiotaulu voisi näyttää esimerkiksi tältä.
+> Kyseinen relaatiotaulu voisi näyttää esimerkiksi tältä. Taulun nimi ***Asiakas***.
 
  |asiakkaan nimi|asiakkaan osoite|asiakkaan puhelinnumero|asiakkaan toimipaikka|tilausten kokonaismäärä|
  |---|---|---|---|---|
@@ -32,11 +32,11 @@ Tässä taulussa on kaksi mielenkiintoista saraketta; asiakkaan toimipaikka sek�
 > [!TIP]
 > Kun aloitat SQL-haun suunnittelun,  1) tutustu ensin tietokannan tauluihin ja selvitä mistä taulusta hakemasi tieto löytyy,  2) suunnittele ja kirjoita alustava SLQ-haku ja 3) aja haku ja tarkista saamasi tulos. Korjaa hakua, mikäli tarpeen.
 
-### Esimerkki 01: kaikkien tietojen haku taulusta.
+### Esimerkki 01: kaikkien tietojen haku taulusta nimeltä ***asiakas***.
 > 
 ```sql
 SELECT *  
-FROM 
+FROM asiakas
 ```
 
 
@@ -46,7 +46,7 @@ FROM
 
 WHERE-ehdon yhteydessä käytetään vertailuoperaattoreita, joiden avulla hakua rajoittava ehto ilmaistaan.
 
-> SQL-kielessä käytetyt operaattorit eroavat, jonkin verran yleisesti ohjelmointikielissä käytetyistä operaattoreista. Käyttö vaatii siis tarkkuutta!
+> SQL-kielessä käytetyt operaattorit eroavat yleisesti ohjelmointikielissä käytetyistä operaattoreista. Käyttö vaatii siis tarkkuutta!
 
 | OPERAATTORI | MERKITYS | SELITYS |
 |---|---|---|
