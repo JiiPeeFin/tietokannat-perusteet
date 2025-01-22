@@ -8,18 +8,18 @@ Tärkeää on saada haettua *KAIKKI* haluttu tieto ilman *MITÄÄN VÄÄRÄÄ* t
 
 > ***Esimerkiksi:*** kuvitellaan, että meillä on tietokannan taulu, johon on tallennettu asiakastietoja.
 > Kuten asiakasnumero, asiakkaan nimi, asiakkaan osoite, asiakkaan puhelinnumero, asiakkaan toimipaikka sekä asiakkaan tilausten kokonaismäärä.
-
-> Kyseinen relaatiotaulu voisi näyttää esimerkiksi tältä. Taulun nimi ***Asiakas***.
-
- |asiakkaan nimi|asiakkaan osoite|asiakkaan puhelinnumero|asiakkaan toimipaikka|tilausten kokonaismäärä|
- |---|---|---|---|---|
- |Reijon keittiö ay|Konetie 2|044 123123|Espoo|6|
- |Allun asvaltti oy|katutie 1|044 223344|Kirkkonummi|5|
- |Maken majoitus oy|lepotie 5|040 987654|Helsinki|8|
- |Kuljetus Kaisa ab|rengastie 12|050 456789|Vantaa|3|
- |Veikan vihannekset oy|puutarhatie 4|041 112233|Espoo|10|
- |Pekan paikkaus oy|kaivostie 8|040 776655|Helsinki|7|
- |Rakennus-Rane oy|rakennustie 10|045 334455|Helsinki|4|
+> 
+> Kyseinen relaatiotaulu voisi näyttää esimerkiksi tältä. Taulun nimi ***asiakas***.
+> 
+> |asiakkaan nimi|asiakkaan osoite|asiakkaan puhelinnumero|asiakkaan toimipaikka|tilausten kokonaismäärä|
+>  |---|---|---|---|---|
+>  |Reijon keittiö ay|Konetie 2|044 123123|Espoo|6|
+>  |Allun asvaltti oy|katutie 1|044 223344|Kirkkonummi|5|
+>  |Maken majoitus oy|lepotie 5|040 987654|Helsinki|8|
+>  |Kuljetus Kaisa ab|rengastie 12|050 456789|Vantaa|3|
+>  |Veikan vihannekset oy|puutarhatie 4|041 112233|Espoo|10|
+>  |Pekan paikkaus oy|kaivostie 8|040 776655|Helsinki|7|
+>  |Rakennus-Rane oy|rakennustie 10|045 334455|Helsinki|4|
  
 Tässä taulussa on kaksi mielenkiintoista saraketta; asiakkaan toimipaikka sekä tilausten kokonaismäärä. Ensimmäinen on toistuvaa tietoa ja jälkimmäinen on numeerista tietoa, jolle voidaan suorittaa erilaisia matemaattisia toimenpiteitä (kuten kaikkien tilausten laskeminen tai vertailu).
 
