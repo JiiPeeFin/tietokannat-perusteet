@@ -38,9 +38,17 @@ T채ss채 taulussa on kaksi mielenkiintoista saraketta; asiakkaan toimipaikka sek�
 SELECT *  
 FROM asiakas
 ```
+> Kysely palauttaa kaikki sarakkeet ja kaikki rivit. 
 
 
 ### Esimerkki 02: 
+```sql
+SELECT  asiakkaan nimi, tilausten kokonaism채채r채
+FROM asiakas
+```
+>Kysely palauttaa VAIN sarakkeet *asiakkaan nimi* ja *tilausten kokonaism채채r채*.
+>Kaikki rivit palautetaan.
+
 
 # Vertailuoperaattorit
 
