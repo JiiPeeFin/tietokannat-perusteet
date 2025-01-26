@@ -3,8 +3,15 @@
 SQL-kielessä käytetyt kaikki käskyt ovat kyselyitä (engl. query), sillä jokainen kysely palauttaa tuloksen käyttäjälle. [^1]
 
 Tämä koskee erityisesti SELECT-kyselyä.
-Yleisin käyttötarkoitus niille on tietojen hakeminen nykyisestä tietokannasta. Tietoa haetaan SELECT-lauseella, jota täydennetään muilla käskyillä ja rajoitteilla. 
+Yleisin käyttötarkoitus SELECT-kyselyille on tietojen hakeminen nykyisestä tietokannasta. Tietoa haetaan SELECT-lauseella, jota täydennetään muilla käskyillä ja rajoitteilla. 
 Tärkeää on saada haettua *KAIKKI* haluttu tieto ilman *MITÄÄN VÄÄRÄÄ* tietoa. 
+
+Perusmuodossa kyselyssä ilmoitetaan mitä sarakkeita halutaan näyttää käyttäjälle ja mista taulusta tieto haetaan.
+
+> Perusmuotoinen SELECT-kysely
+> SELECT *sarakkeiden nimet* FROM *taulun nimi*
+
+Perusmuotoinen kysely on jo erittäin hyödyllinen ja sitä käytetään monissa tilanteissa, mutta seuraavassa luvussa käymme läpi miten kyselyä voidaan rajoittaa. Rajoittaminen on erittäin tärkeää, sillä sen avulla saamme vain haluammamme tiedon näkyviin.
 
 > ***Esimerkiksi:*** kuvitellaan, että meillä on tietokannan taulu, johon on tallennettu asiakastietoja.
 > Kuten asiakasnumero, asiakkaan nimi, asiakkaan osoite, asiakkaan puhelinnumero, asiakkaan toimipaikka sekä asiakkaan tilausten kokonaismäärä.
