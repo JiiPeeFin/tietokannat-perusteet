@@ -21,7 +21,7 @@ Tärkeää on saada haettua *KAIKKI* haluttu tieto ilman *MITÄÄN VÄÄRÄÄ* t
 >  |Pekan paikkaus oy|kaivostie 8|040 776655|Helsinki|7|
 >  |Rakennus-Rane oy|rakennustie 10|045 334455|Helsinki|4|
  
-Tässä taulussa on kaksi mielenkiintoista saraketta; asiakkaan toimipaikka sekä tilausten kokonaismäärä. Ensimmäinen on toistuvaa tietoa ja jälkimmäinen on numeerista tietoa, jolle voidaan suorittaa erilaisia matemaattisia toimenpiteitä (kuten kaikkien tilausten laskeminen tai vertailu).
+Tässä taulussa on kaksi mielenkiintoista saraketta; asiakkaan toimipaikka sekä tilausten kokonaismäärä. Ensimmäi sarake sisältää toistuvaa tietoa ja jälkimmäinen sarake on numeerista tietoa, jolle voidaan suorittaa erilaisia matemaattisia toimenpiteitä (kuten kaikkien tilausten laskeminen tai vertailu).
 
 |  KÄSKY | MERKITYS |
 |---|---|
