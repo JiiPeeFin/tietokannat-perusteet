@@ -3,8 +3,12 @@
 
 Edellisessä luvussa tutustuimme kyselyiden perusteisiin.
 Jatkamme nyt samasta aiheesta. Kun vertailuoperaattoreiden lisäksi otetaan käyttöön loogiset operaattorit AND ja OR, niin pystymme rakentamaan yhdellä kertaa monimutkaisemman kyselyn.
+Käytännössä voimme asettaa yhden tai useampia ehtoja kyselylle. Sekä tehdä vaihtoehtoisia ehtoja.
 
-Jos aiemmin pystyimme etsimään asiakkaat, joiden toimipaikka sijaitsi tietyssä kaupungissa pystymme nyt sen lisäksi etsimään myös 
+Jos aiemmin pystyimme etsimään asiakkaat, joiden toimipaikka sijaitsi tietyssä kaupungissa, pystymme nyt sen lisäksi etsimään myös 
+
+> Esimerkki 01:
+> 
 
 ## Merkkijonojen vertailu
 >- LIKE
