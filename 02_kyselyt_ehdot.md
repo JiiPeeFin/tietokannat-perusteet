@@ -3,12 +3,18 @@
 
 Edellisessä luvussa tutustuimme kyselyiden perusteisiin.
 Jatkamme nyt samasta aiheesta. Kun vertailuoperaattoreiden lisäksi otetaan käyttöön loogiset operaattorit AND ja OR, niin pystymme rakentamaan yhdellä kertaa monimutkaisemman kyselyn.
-Käytännössä voimme asettaa yhden tai useampia ehtoja kyselylle. Sekä tehdä vaihtoehtoisia ehtoja.
+Käytännössä voimme asettaa yhden tai useampia ehtoja kyselylle (AND). Sekä tehdä vaihtoehtoisia ehtoja (OR).
 
 Jos aiemmin pystyimme etsimään asiakkaat, joiden toimipaikka sijaitsi tietyssä kaupungissa, pystymme nyt sen lisäksi etsimään myös 
 
-> Esimerkki 01:
+> Esimerkki 01: kahden ehdon yhdistäminen AND -operaattorilla
 > 
+
+OR -operaattorilla voimme luoda kaksi (tai useampia) valinnaisia ehtoja, joista voin yhden tarvitsee toteutua.
+
+> Esimerkki 02: kahden vaihtoehtoisen ehdon tutkiminen OR -operaattorilla
+> 
+
 
 ## Merkkijonojen vertailu
 >- LIKE
