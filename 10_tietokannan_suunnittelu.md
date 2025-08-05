@@ -7,7 +7,7 @@ Tietokannan suunnittelu ja toteutus on oma taiteenlajinsa. Tietokanta suunnitell
 Tietokanta voi koostua vain yhdestä suuresta taulusta, mutta tämä ratkaisu johtaa yleensä hankaluuksiin myöhemmin. Yleensä relaatiotietokanta koostuu useista tauluista sekä niiden välitauluista, joilla kerätään yhteen taulujen välistä tietoa.
 
 > [!NOTE]
-> Tämän koulutuksen aikana teidän tarvitsee suunnitella ja toteuttaa ainakin yksi tietokanta alusta loppuun. Tässä luvussa käsittelememme suunnitteluun liittyviä aiheita, käsitteitä ja menetelmiä. Muistakaa myös hakea tietoa muista lähteistä.
+> Tämän koulutuksen aikana teidän tarvitsee suunnitella ja toteuttaa ainakin yksi tietokanta alusta loppuun. Tässä luvussa käsittelemme suunnitteluun liittyviä aiheita, käsitteitä ja menetelmiä. Muistakaa myös hakea tietoa muista lähteistä.
 
 Tietokannan suunnittelun perusperiaatteita ovat mm.
 * 
