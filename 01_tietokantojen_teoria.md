@@ -1,9 +1,10 @@
 # Tietokantojen teoria
 
 ### Mikä on tietovarasto (engl. data repository)?
-- mikä tahansa kokoelma tietoa (dataa).
-- ei välttämättä suunniteltu, ei välttämättä tarkoitusta.
-- *UUSI MÄÄRITELMÄ:* tietovarasto tarkoittaa tietokantojen erikoistapausta (engl. data warehouse), jossa keskitytään tiedon hakemiseen, puhdistamiseen ja analysointiin (esim. ETL-prosessi).
+- Mikä tahansa kokoelma tietoa (dataa).
+- Ei välttämättä suunniteltu, ei välttämättä tarkoitusta.
+- Ei välttämättä rakennetta.
+- *UUSI MÄÄRITELMÄ:* tietovarasto (engl. data warehouse) voi tarkoittaa tietokantojen erikoistapausta, jossa keskitytään tiedon hakemiseen, puhdistamiseen ja analysointiin (esim. ETL-prosessi).
 
 ### Mikä on tietokanta (engl. database)?
 - Kokoelma yhteen liittyvää tietoa (dataa).
@@ -12,12 +13,33 @@
 - Tietovarasto, jota käytetään sovelluksen tilan pysyvään tallentamiseen.
 - Ei tarvitse olla digitaalinen/sähköinen, mutta yleensä on.
 
-### Mitä tietokannalta halutaan?
+### Mitä tietokannalta halutaan ensisijaisesti?
+- Turvallinen ja pysyvä paikka tiedolle.
+- Tehostaa: poistaa tiedon toisto (redundanssi).
+- Eristää: eristää ohjelma (toiminnat) ja tiedot.
+- Tietojen käsittely: Tehokas ja nopea tietojen hakeminen ja lisääminen.
+- Monet käyttäjät: Monet käyttäjät voivat käsitellä tietoja samaan aikaan.
+- Käyttäjähallinta: eri oikeustasoja eri tietoihin. Mahdollisuus rajoittaa tietojen näkyvyyttä ja muokkausta.
+- Rakenne: tietojen tallentamisessa ja käsittelyssä on rajoitteita, jotka suojaavat tietoa ja sen rakennetta.
+
+## Tietokannan ominaisuuksia:
 - Tiedon hallintaan liittyvät toiminnot (CRUD)
   - Create - tiedon lisääminen, tiedon rakenteiden ja metatietojen lisääminen
   - Read/retriev - tiedon hakeminen ja esittäminen
   - Update - tiedon, tiedon rakenteiden ja metatietojen muuttaminen
   - Destroy/drop - tiedon, tiedon rakenteiden ja metatietojen poistaminen 
 - Tiedon pysyvyyteen ja turvallisuuteen liittyvät toiminnot (ACID)
+  - Atomicity - kaikki muutokset suoritetaan tai mitään ei suoriteta. Ei keskeneräisiä tiloja.
+  - Consistency (eheys) - tietokannan tila pysyy ehjänä muutoksista huolimatta
+  - Isolation (eristyneisyys) - toimenpiteet eivät vaikuta toisiinsa. Toimenpiteiden väliset tilat eivät näy toisille toiminnoille.
+  - Durability (pysyvyys) - toimenpiteen jälkeen muutokset eivät katoa järjestelmästä
+ 
 
 ### Mikä on relaatiotietokanta (engl. relational database)?
+- Data järjestetään äärellisiksi listoiksi.
+- Listat on ryhmitelty relaation mukaan tauluiksi.
+- Jokainen rivi on oma tietueensa.
+- Jokainen sarake on oma ominaisuutensa.
+- Taulut voidaan yhdistää toisiinsa avaimilla.
+
+### Tietokannan suunnittelun vaiheet
