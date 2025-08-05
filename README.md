@@ -90,25 +90,25 @@ Tärkeimpiä tietokantojen käsitteitä ovat mm. seuraavat:
 
 Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehittyneempiin hakuihin ja käyttöön. Näitä ei käydä tässä kurssissa.
 
-## [Kyselyt - perusteet](01_kyselyt_perusteet.md)
+## [Kyselyt - perusteet](03_kyselyt_perusteet.md)
 
-## [Kyselyt - ehdot](02_kyselyt_ehdot.md)
+## [Kyselyt - ehdot](04_kyselyt_ehdot.md)
 
-## Kyselyt - koostaminen ja funktiot
+## [Kyselyt - koostaminen ja funktiot](04_kyselyt_ehdot.md)
 
-## Kyselyt - järjestäminen ja rajoittaminen
+## [Kyselyt - järjestäminen ja rajoittaminen](04_kyselyt_ehdot.md)
 
-## Kyselyt - taulujen yhdistäminen
+## [Kyselyt - taulujen yhdistäminen](04_kyselyt_ehdot.md)
 
-## Kyselyt - tiedon lisäys, muokkaus ja poisto
+## [Kyselyt - tiedon lisäys, muokkaus ja poisto](04_kyselyt_ehdot.md)
 
-## Kyselyt - rakenteen luonti, muokkaus ja poisto
+## [Kyselyt - rakenteen luonti, muokkaus ja poisto](04_kyselyt_ehdot.md)
 
-## Tehtäviä
+## [Tehtäviä](04_kyselyt_ehdot.md)
 
 Tehtävät löytyvät kansiosta ["tehtävät"](tehtävät/).
 Tehtävät on jaettu useaan eri tiedostoon kurssin rakenteen mukaan.
 
 KUVA
 
-## Lisämateriaalia
+## [Lisämateriaalia](04_kyselyt_ehdot.md)
