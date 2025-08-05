@@ -6,6 +6,11 @@
 - Ei välttämättä rakennetta.
 - *UUSI MÄÄRITELMÄ:* tietovarasto (engl. data warehouse) voi tarkoittaa tietokantojen erikoistapausta, jossa keskitytään tiedon hakemiseen, puhdistamiseen ja analysointiin (esim. ETL-prosessi).
 
+>Esimerkki:
+>Tapaus 01: iso kasa kirjoja työpöydällä on tietovarasto. Ei järjestystä, ei suunnitelmaa, rakenne vain yksiköissä (kirjoissa).
+>Tapaus 02: iso hyllyllinen kirjoja kirjastossa on tietokanta. Kirjat on järjestetty aiheittain, teoksen nimen mukaan ja tyypin mukaan. 
+
+
 ### Mikä on tietokanta (engl. database)?
 - Kokoelma yhteen liittyvää tietoa (dataa).
 - Yhtenäinen kokoelma tietoa, jolla on jokin merkitys.
