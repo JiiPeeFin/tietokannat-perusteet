@@ -10,6 +10,12 @@
 
 >***Esimerkkitapaus 02:*** iso hyllyllinen kirjoja kirjastossa on tietokanta. Kirjat on järjestetty aiheittain, teoksen nimen mukaan ja tyypin mukaan. Suunnitelma, jotta kirjoja on helppo löytää ja lisätä. 
 
+>***Esimerkkejä erilaisista tavoista toteuttaa tietokanta***
+> - paperinen lista
+> - tekstitiedosto (esim. word)
+> - taulukkotiedosto (esim. excel)
+> - automatisoitu taulukkotiedosto (esim. excel)
+> - tietokantasovellus (esim. XAMPP, jossa MySQL phpMyAdmin käyttöliittymällä)
 
 ### Mikä on tietokanta (engl. database)?
 - Kokoelma yhteen liittyvää tietoa (dataa).
@@ -19,6 +25,12 @@
 - Ei tarvitse olla digitaalinen/sähköinen, mutta yleensä on.
 
 ### Mitä tietokannalta halutaan ensisijaisesti?
+- Turvallinen tiedon säilytys
+- Hallittu tietojen muuttaminen
+- Monipuolinen tietojen haku
+- Tehdä yhteenvetoja ja laskutoimituksia
+- Tiedon jakaminen
+
 - Turvallinen ja pysyvä paikka tiedolle.
 - Tehostaa: poistaa tiedon toisto (redundanssi).
 - Eristää: eristää ohjelma (toiminnat) ja tiedot.
