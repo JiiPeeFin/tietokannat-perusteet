@@ -35,16 +35,16 @@ Nimeämisen hyvät peruskäytännöt ovat
 Entiteeteillä tulee olla suhde johonkin muuhun entiteettiin, jotta ne voidaan ryhmitellä samaan tietokantaa.
 
 Mahdolliset suhteet (esimerkkinä ihmissuhteet) ovat:
-- ***Yhden suhde yhteen (1 - 1):*** esimerkiksi avioliitto, sillä yhdellä henkilöllä voi olla VAIN yksi puoliso.
-- ***Yhden suhde moneen (1-N, 1-*):** esimerkiksi ensijainen huoltaja, sillä yhdellä lapsella voi olla vain yksi ensisijainen huoltaja (yhteyshenkilö). Mutta yhdellä huoltajalla voi olla monta lasta.
-- ***Monen suhde moneen (*-*, N-M):*** esimerkiksi ystävyys, sillä yhdellä henkilöllä voi olla MONTA henkilöä ystävänä. Ja yhdellä ystävällä voi olla monta henkilöä ystävänä.
+- Yhden suhde yhteen (1 - 1): esimerkiksi avioliitto, sillä yhdellä henkilöllä voi olla VAIN yksi puoliso.
+- Yhden suhde moneen (1-N, 1-*): esimerkiksi ensijainen huoltaja, sillä yhdellä lapsella voi olla vain yksi ensisijainen huoltaja (yhteyshenkilö). Mutta yhdellä huoltajalla voi olla monta lasta.
+- Monen suhde moneen (*-*, N-M): esimerkiksi ystävyys, sillä yhdellä henkilöllä voi olla MONTA henkilöä ystävänä. Ja yhdellä ystävällä voi olla monta henkilöä ystävänä.
 
 Mahdolliset suhteet (esimerkkinä yritys) ovat:
-- ***Yhden suhde yhteen (1 - 1):*** esimerkiksi toimitusjohtaja, sillä yhdellä yrityksellä on vain yksi toimitusjohtaja. Ja yksi toimitusjohtaja työskentelee vain yhdessä yrityksessä.
-- ***Yhden suhde moneen (1-N, 1-*):** esimerkiksi esihenkilöt, sillä yhdellä esihenkilöllä on monta alaista. Mutta yhdellä alaisella on vain yksi esihenkilö. 
-- ***Monen suhde moneen (*-*, N-M):*** esimerkiksi tuotteet, sillä yhdellä yrityksellä on monta tuotetta. Ja yhden samanlaiset tuotteen voi tuottaa monta yritystä. 
+- Yhden suhde yhteen (1 - 1): esimerkiksi toimitusjohtaja, sillä yhdellä yrityksellä on vain yksi toimitusjohtaja. Ja yksi toimitusjohtaja työskentelee vain yhdessä yrityksessä.
+- Yhden suhde moneen (1-N, 1-*): esimerkiksi esihenkilöt, sillä yhdellä esihenkilöllä on monta alaista. Mutta yhdellä alaisella on vain yksi esihenkilö. 
+- Monen suhde moneen (*-*, N-M): esimerkiksi tuotteet, sillä yhdellä yrityksellä on monta tuotetta. Ja yhden samanlaiset tuotteen voi tuottaa monta yritystä. 
 
->[!TIP]
+>[!IMPORTANT]
 >Suhteiden selvittäminen on yllättävän hankalaa. Ota huomioon, että tietokanta on AINA yksinkertaistettu malli monimutkaisesta todellisuudesta. Tietokannan suunnittelijan tulee tehdä valintoja ja päätöksiä siitä miten tietoa tallennetaan ja miten tiedot liittyvät toisiinsa. Kaikkea ei voi saada. 
 > 
 
