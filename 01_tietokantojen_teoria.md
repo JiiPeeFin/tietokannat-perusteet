@@ -14,8 +14,10 @@
 
 ### Mitä tietokannalta halutaan?
 - Tiedon hallintaan liittyvät toiminnot (CRUD)
--- Create - tiedon lisääminen, tiedon rakenteiden ja metatietojen lisääminen
--- 
+  - Create - tiedon lisääminen, tiedon rakenteiden ja metatietojen lisääminen
+  - Read/retriev - tiedon hakeminen ja esittäminen
+  - Update - tiedon, tiedon rakenteiden ja metatietojen muuttaminen
+  - Destroy/drop - tiedon, tiedon rakenteiden ja metatietojen poistaminen 
 - Tiedon pysyvyyteen ja turvallisuuteen liittyvät toiminnot (ACID)
 
 ### Mikä on relaatiotietokanta (engl. relational database)?
