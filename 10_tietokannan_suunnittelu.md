@@ -44,7 +44,8 @@ Mahdolliset suhteet (esimerkkinä yritys) ovat:
 - Yhden suhde moneen (1-N, 1-*): esimerkiksi esihenkilöt, sillä yhdellä esihenkilöllä on monta alaista. Mutta yhdellä alaisella on vain yksi esihenkilö. 
 - Monen suhde moneen (*-*, N-M): esimerkiksi tuotteet, sillä yhdellä yrityksellä on monta tuotetta. Ja yhden samanlaiset tuotteen voi tuottaa monta yritystä. 
 
->[!TIP] Suhteiden selvittäminen on yllättävän hankalaa. Ota huomioon, että tietokanta on AINA yksinkertaistettu malli monimutkaisesta todellisuudesta. Tietokannan suunnittelijan tulee tehdä valintoja ja päätöksiä siitä miten tietoa tallennetaan ja miten tiedot liittyvät toisiinsa. Kaikkea ei voi saada. 
+>[!TIP]
+>Suhteiden selvittäminen on yllättävän hankalaa. Ota huomioon, että tietokanta on AINA yksinkertaistettu malli monimutkaisesta todellisuudesta. Tietokannan suunnittelijan tulee tehdä valintoja ja päätöksiä siitä miten tietoa tallennetaan ja miten tiedot liittyvät toisiinsa. Kaikkea ei voi saada. 
 > 
 
 
