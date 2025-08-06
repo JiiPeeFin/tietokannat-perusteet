@@ -53,9 +53,9 @@ Mahdolliset suhteet (esimerkkinä yritys) ovat:
 Tietokannan suunnittelu sisältää yksinkertaisimmillaan kolme vaihetta. Käsiteanalyysin, jossa asiakkaan vaatimukset muutetaan ensin tarinaksi, josta löydetään käsitteet, niiden ominaisuudet ja lopulta niiden väliset suhteet ja rajoitteet. Tässä vaiheessa yhteys todelliseen maailmaan alkaa katketa, ja ajattelun pitää siirtyä käsittelemään sitä miten tietoa voidaan tallentaa. Käsiteanalyysin lopputuote on käsitekaavio, joka piirretään usein ER-mallina. ER-malli kuuluu UML-kaavioiden ryhmään, ja siitä löytyy useita erilaisia piirto-ohjeita. ER-malli auttaa suunnittelijaa ja asiakasta korjaamaan käsitteiden, niiden suhteiden ja ominaisuuksien luonnissa tapahtuneita virheitä. Lopuksi ER-malli puretaan relaatiomalliksi, joka toteutetaan listana ja/tai taulukkona, jossa näkyy lopullisten tietokannan taulujen nimet, sarakkeet ja sarakkaiden tietotyypit. Lisäksi on tärkeää määritellä yhteydet pää- ja vierasavainten avulla. Tämä relaatiomalli puretaan SQL-komennoiksi, joiden avulla toteutetaan tietokanta.
 
 Tietokannan suunnittelun pääosat
-1. Käsiteanalyysi
-2. Konseptuaalinen suunnittelu
-3. Looginen suunnittelu
+1. Käsiteanalyysi                (engl. concept analysis)
+2. Konseptuaalinen suunnittelu   (engl. conceptual design)
+3. Looginen suunnittelu          (engl. logical design)
 
 > [!TIP]
 > Jokainen vaihe voidaan joutua tekemään useaan kertaan. Sekä palaamaan takaisin alkuun.
