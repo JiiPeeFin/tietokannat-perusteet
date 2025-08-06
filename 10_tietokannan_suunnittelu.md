@@ -4,21 +4,21 @@ Tietokannan suunnittelu ja toteutus on oma taiteenlajinsa. Tietokanta suunnitell
 
 
 
-Tietokanta voi koostua vain yhdestä suuresta taulusta, mutta tämä ratkaisu johtaa yleensä hankaluuksiin myöhemmin. Yleensä relaatiotietokanta koostuu useista tauluista sekä niiden välitauluista, joilla kerätään yhteen taulujen välistä tietoa.
+Tietokanta voi koostua vain yhdestä suuresta taulusta, mutta tämä ratkaisu johtaa yleensä hankaluuksiin myöhemmin. Yleensä relaatiotietokanta koostuu useista tauluista sekä niiden välitauluista, joilla kerätään yhteen taulujen välistä tietoa. Tietokantojen luomiseen on useita malleja ja viitekehityksiä, joissa yritetään tehostaa jotain tietokannan ominaisuutta. Yleensä tämä tehostaminen heikentää muita ominaisuuksia. Tässä kurssissa keskitymme siihen miten suunnitellaan ja toteutetaan yleisimmän käytettyjä relaatiotietokantoja. Emme ota huomioon suurinta osaa tietokantojen suunnittelussa käytettäviin näkökulmiin, vaan pohdimme pääasiassa tiedon rakennetta ja tiedon toiston vähentämistä.
 
 > [!NOTE]
-> Tämän koulutuksen aikana teidän tarvitsee suunnitella ja toteuttaa ainakin yksi tietokanta alusta loppuun. Tässä luvussa käsittelemme suunnitteluun liittyviä aiheita, käsitteitä ja menetelmiä. Muistakaa myös hakea tietoa muista lähteistä.
+> Tämän koulutuksen aikana teidän tarvitsee suunnitella ja toteuttaa ainakin yksi tietokanta alusta loppuun. Tässä luvussa käsittelemme suunnitteluun liittyviä aiheita, käsitteitä ja menetelmiä. Muistakaa hakea tietoa myös muista lähteistä.
 
 Tietokannan suunnittelun perusperiaatteita ovat mm.
 * 
 
-Tietokannan tulee siis olla
-* Tietokanta sisältää ennalta määrittelemättömän määrän yhteenkuuluvaa tietoa.
-* Tietokanta on suunniteltu ja toteuttu ennalta määriteltyä tarkoitusta varten.
-* Tietokannalla on käyttäjiä, joiden tarvitsee hakea, lisätä, muokata ja poistaa tietoja tietokannasta. CRUD-operaatiot.
+Tietokannan tulee siis...
+* sisältää ennalta määrittelemättömän määrän yhteenkuuluvaa tietoa.
+* olla suunniteltu ja toteuttu ennalta määriteltyä tarkoitusta varten.
+* hallita käyttäjiä, joiden tarvitsee hakea, lisätä, muokata ja poistaa tietoja tietokannasta.
 
 
-## Nimeämiskäytännöt
+### Nimeämiskäytännöt
 > Selkeä ja johdonmukainen nimeämiskäytäntö (engl. naming convention) tekee tietokannasta helpommin käytettävän ja ylläpidettävän.
 
 Nimeämisen peruskäytännöt on tärkeä sopia projektin alussa, jotta nimet ovat johdonmukaisia. Nimet tulee mietti mm. tauluilla, taulujen sarakkeille, avaimille ja monille muille rakenteille. Nimiä käyttävät kehittäjien ja ohjelmoijien lisäksi myös monet muut sovelluksen käyttäjät. Ja nimet vaikuttavat koko sovelluksen ja sen tietokannan eliniän ajan.[^1]
@@ -30,7 +30,7 @@ Nimeämisen hyvät peruskäytännöt ovat
 * käytä sanoja yksikkömuodossa. Älä monikossa. Esim. asiakas. Ei asiakkaat.
 
 
-## Entiteettien suhteet
+### Entiteettien suhteet
 
 Entiteeteillä tulee olla suhde johonkin muuhun entiteettiin, jotta ne voidaan ryhmitellä samaan tietokantaa.
 
@@ -48,8 +48,27 @@ Mahdolliset suhteet (esimerkkinä yritys) ovat:
 >***Suhteiden selvittäminen on yllättävän hankalaa.*** Ota huomioon, että tietokanta on ***AINA*** yksinkertaistettu malli monimutkaisesta todellisuudesta. Tietokannan suunnittelijan tulee tehdä valintoja ja päätöksiä siitä miten tietoa tallennetaan ja miten tiedot liittyvät toisiinsa. Kaikkea ei voi saada. 
 > 
 
+## Tietokannan suunnittelun vaiheet
+1. Käsiteanalyysi
+2. Konseptuaalinen suunnittelu
+3. Looginen suunnittelu
 
-## Tietokannan normalisointi 
+> [!TIP]
+> Jokainen vaihe voidaan joutua tekemään useaan kertaan. Sekä palaamaan takaisin alkuun.
+
+## Tietokannan suunnittelun vaiheet
+1. Käsiteanalyysi
+   - Käyttäjätarina (laaja)
+   - Käsitteiden tunnistaminen
+   - Käsitteiden yhteydet
+   - Käsitteiden rajoitteet
+   - Lisää ominaisuudet käsitteidelle
+2. Käsitekaavion piirtäminen
+3. ER-kaavion piirtäminen
+4. ER-kaavion muuttaminen relaatiomalliksi
+5. SQL kyselyiden 
+
+### Tietokannan normalisointi 
 
 Tietokannan normalisointi on menetelmä, jossa tietokanta käydään vaihevaiheelta läpi. Normalisointi tehdään yleensä silloin kun halutaan parantaa nykyisen tietokannan toimintakykyä ja rakennetta. Normalisointi voidaan tehdä myös silloin kun oma
 
