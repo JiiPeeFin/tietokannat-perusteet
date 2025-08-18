@@ -20,7 +20,7 @@ Perusmuotoinen kysely on jo erittäin hyödyllinen ja sitä käytetään monissa
 > 
 > |asiakkaan nimi|asiakkaan osoite|asiakkaan puhelinnumero|asiakkaan toimipaikka|tilausten kokonaismäärä|
 >  |---|---|---|---|---|
->  |Reijon keittiö ay|Konetie 2|044 123123|Espoo|6|
+>  |Reijon keittiö ay|konetie 2|044 123123|Espoo|6|
 >  |Allun asvaltti oy|katutie 1|044 223344|Kirkkonummi|5|
 >  |Maken majoitus oy|lepotie 5|040 987654|Helsinki|8|
 >  |Kuljetus Kaisa ab|rengastie 12|050 456789|Vantaa|3|
