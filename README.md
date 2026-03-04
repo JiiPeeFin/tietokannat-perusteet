@@ -43,7 +43,7 @@ Käytetyt teknologiat ja menetelmät
 Tietokannat ovat digitaalisia tietovarastoja, joiden tiedot liittyvät jotenkin toisiinsa ( eli muodostavat kokonaisuuden). 
 Tietokannat ovat sovellusten ja verkkopalveluiden pitkäaikainen muisti.
 
-> Esimerkki tietokannasta on esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
+> Esimerkkejä tietokannoista ovat esim. yhdistyksen jäsenrekisteri, verkkokaupan tuotelista ja videopelin pistelista.
 
 
 Yleisin tietokantatyyppi on **relaatiotietokanta**. 
