@@ -80,7 +80,8 @@ Tärkeimpiä tietokantojen käsitteitä ovat mm. seuraavat:
 |tietokannan hallintajärjestelmä | database management system, DBMS | Sovellus, jonka avulla tietokantoja ja niiden ominaisuuksia hallitaan. |
 |tietokanta | database, DB | Tietokanta on järjestetty kokonaisuus rakenteellista tietoa, jota DBMS hallitsee. |
 |suhde, relaatio  | relation | 1) Taulu tietokannassa, jonka tiedot ovat suhteessa toisiinsa 2) Taulujen välinen suhde, jota ilmaistaan avaimilla. |
-|tietorakenne, skeema  | data structure, schema | Rakenne siitä miten tieto on järjestetty tauluissa ja eri taulujen välillä. |
+|tietorakenne, skeema  | data structure, schema | Rakenne siitä miten tieto on järjestetty tauluissa ja eri taulujen välillä. Tarkka kuvaus. |
+|tietomalli | data model | Suunnittelussa tehty kuvaus, josta toteutetaan varsinainen skeema.  |
 |kysely, haku, käsky  | query | Käsky/komento, joka hakee tietoa tietokannasta. Voivat myös muuttaa tietokantaa ja sen rakennetta. |
 |taulu   | table | Yksittäinen taulu sisältää tietoa tietystä suhteesta. |
 |rivi, tietue | row, tuple | Rivin tiedot liittyvät suoraan toisiinsa. Esim. tietyn asiakkaan nimi, osoite ja tilaus. |
