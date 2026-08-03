@@ -98,7 +98,7 @@ Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehitt
 
 ## [Kyselyt - koostaminen ja funktiot](04_kyselyt_ehdot.md)
 
-## [Kyselyt - järjestäminen ja rajoittaminen](04_kyselyt_ehdot.md)
+## [Kyselyt - järjestäminen ja rajoittaminen](05_kyselyt_koostaminen.md)
 
 ## [Kyselyt - taulujen yhdistäminen](04_kyselyt_ehdot.md)
 
