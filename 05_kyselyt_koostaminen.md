@@ -1,6 +1,6 @@
 # Kyselyt - koostaminen funktiolla
->- SUM, COUNT, AVG, MAX,...
->- 
+>- AGGREGAATTI: SUM, COUNT, AVG, MAX,...
+>- SKALAARI: ROUND(),...
 
 Jatkamme tiedon käsittelyyn ja sen esittämiseen tässä osassa.
 Kyselyillä saamme haettua tietoa, mutta kun haluamme yhdistää numeerista tietoa (kuten tuotehintojen yhdistäminen 
@@ -23,4 +23,5 @@ Nämä funktiot yhdistävät tietoa useasta rivistä ja palauttavat vain yhden t
 > Esimerkki 02: kahden vaihtoehtoisen ehdon tutkiminen OR -operaattorilla
 > 
 
-## 
+## Skalaari eli mittafunktiot
+Nämä funktiot käsittelevät yhtä tietoa.
