@@ -86,7 +86,7 @@ Usein työelämässä käytetään listoja asioiden tallentamiseen, mutta tiedon
 |Normaalimuoto|Normaalimuodon ehdot|Tavoite|
 |---|---|---|
 |Ensimmäinen normaalimuoto, 1NF| **ATOMISUUS**: Solun tieto on atomista eli vain yksi arvo per solu, **AINUTLAATUISUUS**: jokaisella rivillä yksilöllinen avain|Tieto on helposti käsiteltävää, eri rivit pysyvät selkeinä|
-|Toinen tormaalimuoto, 2NF| **Avainten suhteet**: Kaikkien ei-avain kenttien tulee olla riippuvuus rivin avaimesta | Taulu jaetaan, jos taulussa on avaimesta riippumatonta tietoa |
+|Toinen normaalimuoto, 2NF| **Avainten suhteet**: Kaikkien ei-avain kenttien tulee olla riippuvuus rivin avaimesta | Taulu jaetaan, jos taulussa on avaimesta riippumatonta tietoa |
 |Kolmas normaalimuoto, 3NF| **Ei-transitiivisuutta:** Kaikkien ei-avain kenttien tulee olla riippuvia **VAIN** avaimesta | Taulu jaetaan, jos taulussa on johonkin muuhun liittyvää tietoa kuin avaimeen |
 |Boyce-Codd normaalimuoto, BCNF|||
 |Neljäs normaalimuoto, 4NF|||
