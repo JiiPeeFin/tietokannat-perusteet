@@ -52,7 +52,7 @@ Mahdolliset suhteet (esimerkkinä yritys) ovat:
 
 Tietokannan suunnittelu sisältää yksinkertaisimmillaan kolme vaihetta. **Käsiteanalyysin** **(1.)**, jossa asiakkaan vaatimukset muutetaan ensin tarinaksi, josta löydetään käsitteet, niiden ominaisuudet ja lopulta niiden väliset suhteet ja rajoitteet. Tässä vaiheessa yhteys todelliseen maailmaan alkaa katketa, ja ajattelun pitää siirtyä käsittelemään sitä miten tietoa voidaan tallentaa. Käsiteanalyysin lopputuote on **käsitekaavio** **(2.)**, joka piirretään usein ER-mallina. ER-malli kuuluu UML-kaavioiden ryhmään, ja siitä löytyy useita erilaisia piirto-ohjeita. ER-malli auttaa suunnittelijaa ja asiakasta korjaamaan käsitteiden, niiden suhteiden ja ominaisuuksien luonnissa tapahtuneita virheitä. Lopuksi ER-malli puretaan **relaatiomalliksi** **(3.)**, joka toteutetaan listana ja/tai taulukkona, jossa näkyy lopullisten tietokannan taulujen nimet, sarakkeet ja sarakkaiden tietotyypit. Lisäksi on tärkeää määritellä yhteydet pää- ja vierasavainten avulla. Tämä relaatiomalli puretaan SQL-komennoiksi, joiden avulla toteutetaan tietokanta.
 
-Tietokannan suunnittelun pääosat
+**Tietokannan suunnittelun pääosat**
 1. Käsiteanalyysi                (engl. concept analysis)
 2. Konseptuaalinen suunnittelu   (engl. conceptual design)
 3. Looginen suunnittelu          (engl. logical design)
@@ -85,9 +85,9 @@ Usein työelämässä käytetään listoja asioiden tallentamiseen, mutta tiedon
 
 |Normaalimuoto|Normaalimuodon ehdot|Tavoite|
 |---|---|---|
-|Ensimmäinen normaalimuoto, 1NF| Solun tieto on atomista, jokaisella rivillä yksilöllinen avain|Tieto on helposti käsiteltävää, eri rivit pysyvät selkeinä|
-|Toinen tormaalimuoto, 2NF|Kaikilla ei-avain kentillä on TÄYSI riippuvuus rivin avaimesta|Taulu jaetaan, jos taulussa on avaimesta riippumatonta tietoa|
-|Kolmas normaalimuoto, 3NF|||
+|Ensimmäinen normaalimuoto, 1NF| **ATOMISUUS**: Solun tieto on atomista eli vain yksi arvo per solu, **AINUTLAATUISUUS**: jokaisella rivillä yksilöllinen avain|Tieto on helposti käsiteltävää, eri rivit pysyvät selkeinä|
+|Toinen tormaalimuoto, 2NF| **Avainten suhteet**: Kaikkien ei-avain kenttien tulee olla riippuvuus rivin avaimesta | Taulu jaetaan, jos taulussa on avaimesta riippumatonta tietoa |
+|Kolmas normaalimuoto, 3NF| **Ei-transitiivisuutta:** Kaikkien ei-avain kenttien tulee olla riippuvia **VAIN** avaimesta | Taulu jaetaan, jos taulussa on johonkin muuhun liittyvää tietoa kuin avaimeen |
 |Boyce-Codd normaalimuoto, BCNF|||
 |Neljäs normaalimuoto, 4NF|||
 |Viides normaalimuoto, 5NF|||
