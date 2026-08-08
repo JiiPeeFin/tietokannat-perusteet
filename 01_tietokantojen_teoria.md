@@ -8,7 +8,7 @@
 
 >***Esimerkkitapaus 01***: iso kasa kirjoja työpöydällä on tietovarasto. Ei järjestystä, ei suunnitelmaa, rakenne vain yksiköissä (kirjoissa).
 
->***Esimerkkitapaus 02:*** iso hyllyllinen kirjoja kirjastossa on tietokanta. Kirjat on järjestetty aiheittain, teoksen nimen mukaan ja tyypin mukaan. Suunnitelma, jotta kirjoja on helppo löytää ja lisätä. 
+>***Esimerkkitapaus 02:*** iso hyllyllinen kirjoja kirjastossa on tietokanta. Kirjat on järjestetty aiheittain, teoksen nimen mukaan ja tyypin mukaan. Järkevä rakenne mahdollistaa uusien kirjojen lisäämisen helposti löydettäviin paikkoihin. 
 
 >***Esimerkkejä erilaisista tavoista toteuttaa tietokanta***
 > - paperinen lista
