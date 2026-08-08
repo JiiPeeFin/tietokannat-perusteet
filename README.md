@@ -13,7 +13,7 @@
    >- INNER JOIN, LEFT/RIGHT JOIN, OUTER JOIN,...
 9. Kyselyt - tiedon lisäys, muokkaus ja poisto
    >- INSERT INTO, UPDATE, DELETE
-10. Kyselyt - rakenteen luonti, muokkaus ja poisto
+10. Kyselyt - tietokannan luonti, muokkaus ja poisto
     >- CREATE DATABASE/TABLE, ALTER TABLE, DROP DATABASE/TABLE
 12. Tietokannan suunnittelu
 13. Tehtäviä
@@ -24,6 +24,7 @@
 >Tämä kurssi on lyhyt ja kapea perehdytys tietokantojen käyttöön. Kurssissa keskitytään lähinnä relaatiotietokantoihin ja SQL -kyselykielen käyttämiseen.
 >Lisäksi käymme läpi lyhyesti tietokannan suunnittelua, joka on oma monimutkainen kokonaisuutensa.
 >Kurssin tarkoitus on antaa opiskelijalle eväät ymmärtää ja käyttää perustason SQL-kyselyitä sekä ymmärtää tietokannan rakennetta ja suunnitteluprosessia.
+>Kurssi on tarkoitettu suoritettavaksi 3-6 päivässä.
 
 Tämän kurssin jälkeen opiskelija...
 - ymmärtää tietokantojen perusteet ja peruskäsitteistön
