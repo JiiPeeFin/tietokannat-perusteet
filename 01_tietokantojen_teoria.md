@@ -40,16 +40,16 @@
 - Rakenne: tietojen tallentamisessa ja käsittelyssä on rajoitteita, jotka suojaavat tietoa ja sen rakennetta.
 
 ## Tietokannan ominaisuuksia:
-- Tiedon pysyvyyteen ja turvallisuuteen liittyvät toiminnot (ACID)
-  - Atomicity - kaikki muutokset suoritetaan tai mitään ei suoriteta. Ei keskeneräisiä tiloja.
-  - Consistency (eheys) - tietokannan tila pysyy ehjänä muutoksista huolimatta
-  - Isolation (eristyneisyys) - toimenpiteet eivät vaikuta toisiinsa. Toimenpiteiden väliset tilat eivät näy toisille toiminnoille.
-  - Durability (pysyvyys) - toimenpiteen jälkeen muutokset eivät katoa järjestelmästä
-- Tiedon käsittelyyn liittyvät toiminnot (CRUD)
-  - Create - tiedon lisääminen, tiedon rakenteiden ja metatietojen lisääminen
-  - Read/retriev - tiedon hakeminen ja esittäminen
-  - Update - tiedon, tiedon rakenteiden ja metatietojen muuttaminen
-  - Destroy/drop - tiedon, tiedon rakenteiden ja metatietojen poistaminen 
+- Tiedon pysyvyyteen ja turvallisuuteen liittyvät toiminnot (_ACID_)
+  - **Atomicity** (atomisuus) - kaikki muutokset suoritetaan tai mitään ei suoriteta. Ei keskeneräisiä tiloja.
+  - **Consistency** (eheys) - tietokannan tila pysyy ehjänä muutoksista huolimatta
+  - **Isolation** (eristyneisyys) - toimenpiteet eivät vaikuta toisiinsa. Toimenpiteiden väliset tilat eivät näy toisille toiminnoille.
+  - **Durability** (pysyvyys) - toimenpiteen jälkeen muutokset eivät katoa järjestelmästä
+- Tiedon käsittelyyn liittyvät toiminnot (_CRUD_)
+  - **Create** - tiedon lisääminen, tiedon rakenteiden ja metatietojen lisääminen
+  - **Read/retrieve** - tiedon hakeminen ja esittäminen
+  - **Update** - tiedon, tiedon rakenteiden ja metatietojen muuttaminen
+  - **Destroy/drop** - tiedon, tiedon rakenteiden ja metatietojen poistaminen 
 
  
 
