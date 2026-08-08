@@ -1,5 +1,6 @@
 # Kyselyt - koostaminen funktiolla
 >- AGGREGAATTI-funktiot: SUM, COUNT, AVG, MAX,...
+>-   GROUP BY -arvojen yhdistämisen lisäkäsky
 >- SKALAARI-funktiot: ROUND(),...
 
 Jatkamme syvemmälle tiedon käsittelyyn ja sen esittämiseen tässä osassa.
