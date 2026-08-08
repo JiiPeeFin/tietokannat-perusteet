@@ -88,7 +88,7 @@ Tärkeimpiä tietokantojen käsitteitä ovat mm. seuraavat:
 |rivi, tietue | row, tuple | Rivin tiedot liittyvät suoraan toisiinsa. Esim. tietyn asiakkaan nimi, osoite ja tilaus. |
 |sarake  | column | Sarakkeet liittyvät tietorakenteeseen ja kuvaavat millaista tietoa kyseisessä kohdassa on. Esim. asiakkaan nimi, joko on merkkijono. |
 |solu | cell | Yksi ja tietty kohta tietokantataulussa. Esim. tietyn asiakkaan nimi. |
-|avain | key | Lisätieto, joka avulla tietokannan taulut liitettään toisiinsa. Ja tietoon luodaan rajoitteita. |
+|avain | key | Lisätieto, joka avulla tietokannan taulut liitetään toisiinsa. Ja tietoon luodaan rajoitteita. |
 |tietotyyppi | data type | Tieto siitä millaista tietoa sarakkeeseen ja sen soluihin on tallennettu. Esim. merkkijonot tai kokonaisluvut. |
 
 Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehittyneempiin hakuihin ja käyttöön. Näitä ei käydä tässä kurssissa.
