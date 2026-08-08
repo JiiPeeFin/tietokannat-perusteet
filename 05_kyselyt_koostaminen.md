@@ -42,10 +42,10 @@ Nämä funktiot yhdistävät tietoa useasta solusta ja palauttavat vain yhden ar
 > Esimerkki 02: kahden vaihtoehtoisen ehdon tutkiminen OR -operaattorilla
 > 
 
-### Aggregaattifunktiot tarvitsevat tuekseen GROUP BY -käskyn.
+### Aggregaattifunktiot tarvitsevat tuekseen GROUP BY -käskyn...
 >- GROUP BY
 
-### 
+### ...ja lisäksi WHERE sana korvataan HAVING sanalla
 >- HAVING 
 
 
