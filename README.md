@@ -63,7 +63,7 @@ Relaatiotietokannan tärkeimpiä piirteitä ovat:
 - **Taulut:** tietojen tallentaminen **tauluihin**, joissa rivit edustavat yhtä tietuetta ja sarake tietueiden ominaisuutta.
 - **Relaatiot:** taulun tiedot ovat **suhteessa** toisiinsa ja lisäksi taulut ovat suhteessa toisiinsa avainten avulla.
 - **SQL-kieli:** kieltä käytetään tiedon ja tietorakenteiden käsittelyyn.
-- **Normalisointi:** tiedot lohkotaan niin pieniin tauluihin, että tietoa ei tarvitse toistaa. Normalisoinnin tavoite on toiston, eli **redundanssin** vähentäminen.
+- **Normalisointi:** tiedot lohkotaan niin pieniin tauluihin, että tietoa ei tarvitse toistaa. Normalisoinnin tavoite on toiston eli **redundanssin** vähentäminen.
 
 > Muita mahdollisia tietokantatyyppejä ovat mm. dokumentti-, graafi- ja avain-pari-tietokannat.
 
@@ -91,7 +91,7 @@ Tärkeimpiä tietokantojen käsitteitä ovat mm. seuraavat:
 |avain | key | Lisätieto, joka avulla tietokannan taulut liitetään toisiinsa. Ja tietoon luodaan rajoitteita. |
 |tietotyyppi | data type | Tieto siitä millaista tietoa sarakkeeseen ja sen soluihin on tallennettu. Esim. merkkijonot tai kokonaisluvut. |
 
-Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehittyneempiin hakuihin ja käyttöön. Näitä ei käydä tässä kurssissa.
+Lisäksi on paljon käsitteitä, jotka liittyvät tietokannan hallintaan, kehittyneempiin hakuihin ja käyttöön. Näihin asioihin ei tutustuta tässä kurssissa.
 
 ## [Kyselyt - perusteet](03_kyselyt_perusteet.md)
 
