@@ -17,7 +17,7 @@ Jos aiemmin pystyimme etsimään asiakkaat, joiden toimipaikka sijaitsi tietyss�
 
 
 
-## A. Skalaari eli mittafunktiot
+## A. Skalaari- eli mittafunktiot
 Nämä funktiot käsittelevät vain yhtä solua kerrallaan. Näitä ovat esim. lukuja käsittelevät matemaattiset funktiot (kuten pyöristys, ROUND()) ja merkkijonoja käsittelevät funktiot (kuten pituus, LEN()). Lisäksi löytyy hyödyllisiä funktiota kuten päivämäärän ja kellonajan palauttava funktio NOW().
 
 | FUNKTIO | MERKITYS | ESIMERKKI | 
