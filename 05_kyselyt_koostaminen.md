@@ -8,11 +8,11 @@ Kyselyillä saamme haettua tietoa, mutta kun haluamme yhdistää numeerista tiet
 
 Jos aiemmin pystyimme etsimään asiakkaat, joiden toimipaikka sijaitsi tietyssä kaupungissa, pystymme nyt sen lisäksi etsimään myös 
 
-> Esimerkki 01: kokonaishinnan laskeminen
-> Asiakas on valinnut kolme tuotetta
+> Esimerkki 01: kokonaishinnan laskeminen.
+> Asiakas on valinnut kolme tuotetta ja haluat laskea kuinka paljon on kokonaishinta.
 > 
 
-> Esimerkki 02: haluamme tietää mikä on kallein tuote
+> Esimerkki 02: haluamme tietää mikä on kallein tuote. 
 > 
 
 
